@@ -1,0 +1,59 @@
+.header ul li {
+    text-transform: uppercase;
+}
+
+.large-menu .header {
+   display: flex;
+   flex-direction: row;
+   padding: 2.3em 0;
+   justify-content: space-between;
+}
+
+.large-menu .logo {
+    margin-left: 2.3em;
+}
+
+.large-menu .logo h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.large-menu nav {
+    align-self: center;
+    margin: 0 0.8em 0 0;
+}
+
+.large-menu .header ul li {
+    display: inline-block;
+    padding: 0 1.4em 0 0;
+    font-size: 0.8em;
+}
+
+.small-menu .logo h1 {
+    display: none;
+}
+
+.small-menu nav {
+    
+}
+
+.small-menu .header ul li {
+    display: block;
+    text-align: center;
+    padding: 0 2.5em 1em 0;
+    font-size: .9em;
+    
+}
+
+.outter-logo {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+@media screen and (min-width : 500px) {
+    .outter-logo {
+        display: none;
+    }
+}
+
+
