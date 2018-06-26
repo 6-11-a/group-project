@@ -25,9 +25,9 @@ export default class Header extends Component {
                         </div>
                         <nav>
                             <ul>
-                                <li>Home</li>
-                                <li>Cart</li>
-                                <li>Login/Sign up</li>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/cart">Cart</a></li>
+                                <li><a href="/login">Login/Sign up</a></li>
                             </ul>
                         </nav>
                     </div> 
