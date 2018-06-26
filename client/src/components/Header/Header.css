@@ -2,6 +2,11 @@
     text-transform: uppercase;
 }
 
+.header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
 .large-menu .header {
    display: flex;
    flex-direction: row;
@@ -33,10 +38,6 @@
     display: none;
 }
 
-.small-menu nav {
-    
-}
-
 .small-menu .header ul li {
     display: block;
     text-align: center;
@@ -48,6 +49,7 @@
 .outter-logo {
     text-transform: uppercase;
     letter-spacing: 3px;
+    text-align: center;
 }
 
 @media screen and (min-width : 500px) {
