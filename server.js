@@ -2,6 +2,8 @@ const express = require('express');
 const OktaJwtVerifier = require('@okta/jwt-verifier');
 var cors = require('cors');
 
+console.log('test')
+
 const oktaJwtVerifier = new OktaJwtVerifier({
   issuer: 'https://dev-384961.oktapreview.com/oauth2/default',
   assertClaims: {
